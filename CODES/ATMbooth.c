@@ -1,0 +1,70 @@
+#include<stdio.h>
+main()
+{
+int x,y;
+printf("Enter the amount=", &x);
+scanf("%d",&x);
+if(x>=1000)
+{
+    y=x/1000;
+    x=x%1000;
+    printf("1000tk=%d",y);
+
+}
+
+if(x>=500)
+{
+    y=x/500;
+    x=x%500;
+    printf("\n500tk=%d",y);
+
+}
+if(x>=200)
+{
+    y=x/200;
+    x=x%200;
+    printf("\n200tk=%d",y);
+}
+if(x>=100)
+{
+    y=x/100;
+    x=x%100;
+    printf("\n100tk=%d",y);
+}
+if(x>=50)
+{
+    y=x/50;
+    x=x%50;
+    printf("\n50tk=%d",y);
+}
+if(x>=20)
+{
+    y=x/20;
+    x=x%20;
+    printf("\n20tk=%d",y);
+}
+if(x>=10)
+{
+    y=x/10;
+    x=x%10;
+    printf("\n10tk=%d",y);
+}
+if(x>=5)
+{
+    y=x/5;
+    x=x%5;
+    printf("\n5tk=%d",y);
+}
+if(x>=2)
+{
+    y=x/2;
+    x=x%2;
+    printf("\n2tk=%d",y);
+}
+if(x>=1)
+{
+    y=x/1;
+    x=x%1;
+    printf("\n1tk=%d",y);
+}
+}
